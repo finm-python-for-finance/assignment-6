@@ -1,4 +1,4 @@
-This is copy and pasted from the assignment instructions, so the formatting may have been messed up:
+This is copy and pasted from the assignment instructions:
 Overview
 
 Design and implement a modular Python system for simulating a financial analytics and trading platform using key object-oriented design patterns. You will apply creational, structural, and behavioral patterns to build reusable, extensible components for data ingestion, strategy execution, analytics, and reporting.
