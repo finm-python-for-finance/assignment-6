@@ -48,17 +48,6 @@ pip install pandas numpy matplotlib pytest
 python main.py
 ```
 
-## 🧾 Configuration
-
-This project loads configuration and parameters from several files that define runtime behavior, strategy settings, and portfolio composition.
-
-| File | Purpose |
-|------|----------|
-| `config.json` | Global configuration shared across modules via Singleton pattern |
-| `strategy_params.json` | Defines thresholds and parameters for different trading strategies |
-| `portfolio_structure.json` | Describes hierarchical portfolio setup used by the Builder and Composite patterns |
-| `external_data_yahoo.json`, `external_data_bloomberg.xml` | Mock data adapters for Yahoo and Bloomberg formats |
-| `instruments.csv`, `market_data.csv` | Sample local data for instruments and price history |
 
 ## 🧩 Module Descriptions
 
