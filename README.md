@@ -56,8 +56,6 @@ python main.py
 | `patterns/factory.py` | **Factory Pattern** | Creates instrument objects (`Stock`, `Bond`, `ETF`) dynamically from `instruments.csv`. Demonstrates how the Factory centralizes object instantiation logic. |
 | `patterns/singleton.py` | **Singleton Pattern** | Manages a single shared configuration instance loaded from `config.json`. Ensures consistent global access across modules. |
 | `patterns/builder.py` | **Builder Pattern**, **Composite Pattern** | Constructs hierarchical portfolio objects from `portfolio_structure.json`. Supports nested sub-portfolios and recursive aggregation of values. |
-| `patterns/decorator.py` | **Decorator Pattern** | Extends base instrument analytics by adding additional metrics (`Volatility`, `Beta`, `Drawdown`) without modifying core classes. Demonstrates decorator stacking. |
-| `patterns/adapter.py` | **Adapter Pattern** | Translates external data from `external_data_yahoo.json` and `external_data_bloomberg.xml` into unified internal `MarketDataPoint` objects. |
 | `patterns/strategy.py` | **Strategy Pattern** | Defines interchangeable trading strategies (`MeanReversionStrategy`, `BreakoutStrategy`). Each implements its own `generate_signals()` method using parameters from `strategy_params.json`. |
 | `patterns/observer.py` | **Observer Pattern** | Implements a publish-subscribe mechanism where observers (e.g., `LoggerObserver`, `AlertObserver`) react dynamically when trading signals are generated. |
 | `patterns/command.py` | **Command Pattern** | Encapsulates trade execution logic and provides undo/redo functionality. Used by the `CommandInvoker` to manage trade lifecycle operations. |
